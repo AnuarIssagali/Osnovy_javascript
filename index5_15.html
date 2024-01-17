@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5_15</title>
+</head>
+<body>
+    <h1>Task5_15</h1>
+    <script>
+        let KZT = parseInt(prompt("Enter your KZT:"));
+        let c = parseInt(KZT/380);
+        let d = parseInt((((KZT/380) * 100) % 100));
+        if(KZT % 380 === 0){
+            alert("ONLY " + KZT / 380 + " USD");
+        }
+        else{
+            alert(c + " USD and " + d +" cents");
+        }
+    </script>
+    <a href="index5_16.html">Task5_16</a>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5_13</title>
+</head>
+<body>
+    <h1>Task5_13</h1>
+    <script>
+        let branch = parseInt(prompt("Choose your branch:" + '\n' + "1 - Science, 2 - Humanitarian subjects, 3 - Art, 4 - Sport"));
+        if(branch === 1){
+            let science = parseInt(prompt("1 - Math, 2 - Physics"));
+            if(science === 1){
+                alert("You are Financier");
+            }
+            else if(science === 2){
+                alert("You are Engineer");
+            }
+        }
+        if(branch === 2){
+            let Humanitarian = parseInt(prompt("1 - History, 2 - Foreign Languages"));
+            if(Humanitarian === 1){
+                alert("You are Historic or Diplomat  ");
+            }
+            else if(Humanitarian === 2){
+                alert("You are Translator");
+            }
+        }
+        if(branch === 3){
+            let Art  = parseInt(prompt("1 - Drawing, 2 -Singing"));
+            if(Art === 1){
+                alert("You are Painter or Architect");
+            }
+            else if(Art === 2){
+                alert("You are Singer or Tamada");
+            }
+        }
+        if(branch === 4){
+            let Sport   = parseInt(prompt("1 - Team, 2 - Individual"));
+            if(Sport === 1){
+                alert("You are footballer or Basketball player");
+            }
+            else if(Sport === 2){
+                alert("You are boxer or tennis player");
+            }
+        }
+    </script>
+    <a href="index5_14.html">Task5_14</a>
+</body>
+</html>
